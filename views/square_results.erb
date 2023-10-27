@@ -39,11 +39,13 @@
       </tr>
     </table>
 
-  <form action="/square/results">
-      <div><label for="a_num">Enter a number</label></div>
-      <div><input id="a_num" name="number" placeholder="What number do you want?"></div>
-  <div><button>Calculate square</button></div>
-  </form>
-
+    <h1>Square Results</h1>
+    <dl>
+      <dt> Number </dt>
+      <dd> <%= @num %> </dd>
+      <dt> Square </dt>
+      <dd> <%= @square %> </dd>
+    </dl>
+    <a href="/square/new"> Calculate another square </a>
   </body>
 </html>

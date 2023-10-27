@@ -39,11 +39,18 @@
       </tr>
     </table>
 
-  <form action="/square/results">
-      <div><label for="a_num">Enter a number</label></div>
-      <div><input id="a_num" name="number" placeholder="What number do you want?"></div>
-  <div><button>Calculate square</button></div>
-  </form>
+    <form action="/random/results">
+      <div>
+        <label for="min_input"> Minimum </label>
+        <input id="min_input" name="user_min" placeholder="E.g. 1.5">
+      </div>
 
+      <div>
+        <label for="max_input"> Maximum </label>
+        <input id="max_input" name="user_max" placeholder="E.g. 4.5">
+      </div>
+
+      <button> Pick random number </button>
+    </form>
   </body>
 </html>
